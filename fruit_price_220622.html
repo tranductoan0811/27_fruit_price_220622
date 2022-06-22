@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+</head>
+
+<body>
+  <!-- Tra cứu giá hoa quả
+  Giả sử, giá hoa quả như sau:
+
+Ổi: 20000 VNĐ/kg
+Dưa Hấu: 20000 VNĐ/kg
+Táo: 30000 VNĐ/kg
+Xoài: 30000 VNĐ/kg
+Cam: 40000 VNĐ/kg
+Chôm Chôm: 40000 VNĐ/kg
+Măng Cụt: 50000 VNĐ/kg
+Mô tả tính năng:
+
+Nhập vào một chuỗi là tên của loại hoa quả
+Nhấn nút “Xem giá” sẽ hiển thị giá tiền của loại hoa quả đó
+Hướng dẫn
+Sử dụng switch-case để lọc điều kiện
+Sử dụng document.getElementById để làm việc với form
+Sử dụng biến để lưu giá tiền của hoa quả -->
+
+<form action="">
+<fieldset style="width: 400px;">
+
+<legend>Bảng báo giá hoa quả</legend><br>
+
+<label for="">Chọn loại hoa quả: </label>
+<select name="" id="fruit_id" style="width: 200px; height: 25px; color : blue;">
+  <option value="oi">Quả Ổi</option>
+  <option value="duahau">Quả Dưa Hấu</option>
+  <option value="tao">Quả Táo</option>
+  <option value="xoai">Quả Xoài</option>
+  <option value="cam">Quả Cam</option>
+  <option value="chomchom">Quả Chôm Chôm</option>
+  <option value="mangcut">Quả Măng Cụt</option>
+  
+</select><br><br>
+
+<button id="xemgia" type="button" onclick="myPrice() ">Xem giá</button>
+
+<p id="result">Giá hoa quả</p>
+
+</fieldset>
+</form>
+
+</body>
+
+</html>
+
+<script src="fruit_price_220622.js"></script>
