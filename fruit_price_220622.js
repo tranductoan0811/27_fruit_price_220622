@@ -42,7 +42,7 @@ function myPrice() {
 
   }
 
-  display = alert(fruit_label + " có giá là: " + price);
+  display = (fruit_label + " có giá là: " + price);
 
  
   document.getElementById("result").innerHTML = display;
